@@ -35,17 +35,27 @@
 ```json
 
 {
-    "name": "url-scraper",
-    "version": "1.0.2",
+    "author": {
+        "name": "KrishCdbry"
+    },
+    "bugs": {
+        "url": "https://github.com/krishcdbry/url-scraper/issues"
+    },
+    "dependencies": {
+        "async": "^2.0.1",
+        "cheerio": "^0.22.0",
+        "npm-text-parser": "^1.0.7",
+        "request": "^2.74.0"
+    },
     "description": "Url scraper which takes the text input and finds the links/urls, scraps them using cheerio and will returns an object with original text, parsed text (using npm-text-parser) and array of objects where each object contains scraped webpage's information.",
-    "main": "index.js",
-    "scripts": {
-        "test": "node index.js"
+    "devDependencies": {},
+    "directories": {},
+    "dist": {
+        "shasum": "eeaff876a02108a9f6615daa43dcd840b02d1c76",
+        "tarball": "https://registry.npmjs.org/url-scraper/-/url-scraper-1.0.2.tgz"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/krishcdbry/url-scraper.git"
-    },
+    "gitHead": "6b084520812e2f695dae481815aa183ebd81be37",
+    "homepage": "https://github.com/krishcdbry/url-scraper#readme",
     "keywords": [
         "url",
         "scraper",
@@ -66,23 +76,24 @@
         "web-bot",
         "scrapper"
     ],
-    "author": "KrishCdbry",
     "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/krishcdbry/url-scraper/issues"
-    },
+    "main": "index.js",
     "maintainers": [
         {
             "name": "krishcdbry"
         }
     ],
-    "homepage": "https://github.com/krishcdbry/url-scraper#readme",
-    "dependencies": {
-        "async": "^2.0.1",
-        "cheerio": "^0.22.0",
-        "npm-text-parser": "^1.0.7",
-        "request": "^2.74.0"
-    }
+    "name": "url-scraper",
+    "optionalDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/krishcdbry/url-scraper.git"
+    },
+    "scripts": {
+        "test": "node index.js"
+    },
+    "version": "1.0.2",
+    "bin": {}
 }
 ```
 
